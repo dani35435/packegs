@@ -1,19 +1,24 @@
 {
     "name": "dani35435/packegs",
-    "description": "packegs",
+    "description": "Module for working with arrays ",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Dani35435\\Packegs\\": "src/"
-        }
-    },
     "authors": [
         {
-            "name": "dann",
+            "name": "danil",
             "email": "danil.mekh@mail.ru"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Packeges\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
 }
