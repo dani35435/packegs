@@ -9,5 +9,4 @@ class Packegs
     {
         return new View('site.hello');
     }
-
 }
