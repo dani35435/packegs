@@ -1,0 +1,19 @@
+{
+    "name": "dani35435/packegs",
+    "description": "packegs",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dani35435\\Packegs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dann",
+            "email": "danil.mekh@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
